@@ -1,0 +1,74 @@
+# .github/workflows/orcas.yml
+#
+# Runs orcas_winlink.py four times a day on GitHub's servers and commits the
+# results into docs/ in this repo. GitHub Pages then serves them at:
+#
+#   https://<your-github-username>.github.io/<repo-name>/or.html
+#   https://<your-github-username>.github.io/<repo-name>/or.txt
+#   https://<your-github-username>.github.io/<repo-name>/or.gpx
+#
+# Setup (repo must be PUBLIC for free GitHub Pages / raw access):
+#   1. Put orcas_winlink.py in the repo root, this file at
+#      .github/workflows/orcas.yml
+#   2. Repo Settings -> Pages -> Build and deployment:
+#        Source: Deploy from a branch   Branch: main   Folder: /docs  -> Save
+#   3. Actions tab -> "Orcas to GitHub Pages" -> Run workflow (manual test)
+#
+# Each run commits a small change (the "Gen" timestamp), which also counts as
+# repository activity, so GitHub won't disable the schedule for inactivity.
+
+name: Orcas to GitHub Pages
+
+on:
+  schedule:
+    # 00:05, 06:05, 12:05, 18:05 UTC (scheduled runs can start a few minutes
+    # late at busy times)
+    - cron: "5 0,6,12,18 * * *"
+  workflow_dispatch: {}   # "Run workflow" button for manual runs
+
+permissions:
+  contents: write         # needed to commit the generated files
+
+concurrency:
+  group: orcas
+  cancel-in-progress: false
+
+env:
+  DAYS: "7"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate files
+        # If the fetch or parse fails, the script exits non-zero, the job
+        # stops here, and the previous files in docs/ stay published.
+        run: |
+          mkdir -p docs
+          python orcas_winlink.py --days "$DAYS" \
+            -o docs/or.txt --html-out docs/or.html --gpx docs/or.gpx
+          # stop GitHub Pages running the folder through Jekyll
+          touch docs/.nojekyll
+          echo "---- or.txt ----"
+          cat docs/or.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name  "orcas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Orca incidents update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

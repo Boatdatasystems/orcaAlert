@@ -1,0 +1,12 @@
+ORCAS.PT LAST INCIDENTS
+Gen 2026-09-28 1843Z  n=5/20
+Filter last 7d
+A=Attack S=Sighting  time=local
+
+27Sep 1135 S 43 57.5N ? NE of Faro de Estaca de Bares (SP)
+25Sep 1415 S 38 21.0N 008 59.0W SE of Porto de Recreio de Se~ (PT)
+25Sep 1230 A 38 22.2N 009 06.4W S of Porto de Recreio de Ses~ (PT)
+25Sep 0830 A 38 21.8N 009 16.3W SW of Farol do Cabo Espichel (PT)
+23Sep 1645 A 39 28.8N 009 37.9W NW of Farol das Berlengas (PT)
+
+src orcas.pt - verify, report yours
