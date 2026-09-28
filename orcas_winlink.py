@@ -191,10 +191,11 @@ def parse_incidents_report(text):
 # ----------------------------------------------------------------------------
 _DM_RE = re.compile(
     r"""(?P<deg>\d{1,3})\s*[°º\s]\s*
-        (?P<min>\d{1,2}(?:[.,]\d+)?)\s*['′’]?\s*
+        (?P<min>0*\d{1,2}(?:[.,]\d+)?)\s*['′’]?\s*
         (?P<hem>[NSEWnsew])""",
     re.VERBOSE,
 )
+# ^ "0*" tolerates zero-padded minutes seen in the source, e.g. 007°026.919'W
 
 
 def normalise_type(s):
@@ -211,8 +212,13 @@ def dm_to_decimal(s):
     m = _DM_RE.search(html.unescape(s))
     if not m:
         return None
-    val = int(m["deg"]) + float(m["min"].replace(",", ".")) / 60.0
-    return -val if m["hem"].upper() in "SW" else val
+    deg = int(m["deg"])
+    mins = float(m["min"].replace(",", "."))
+    hem = m["hem"].upper()
+    if mins >= 60 or deg > (90 if hem in "NS" else 180):
+        return None  # garbled value: better flagged than plotted wrongly
+    val = deg + mins / 60.0
+    return -val if hem in "SW" else val
 
 
 def fmt_dm(dec, is_lat):
@@ -335,7 +341,12 @@ def build_report(rows, total, args):
     for r in rows:
         t = r["type"][:1].upper() or "?"
         d = r["dt"].strftime("%d%b %H%M") if r["dt"] else f"{r['date']} {r['time']}"
-        line = f"{d} {t} {fmt_dm(r['latd'], True)} {fmt_dm(r['lond'], False)}"
+        if r["latd"] is None or r["lond"] is None:
+            # show the raw source text so the position isn't lost
+            raw = ascii_only(f"{r.get('lat', '')} {r.get('lon', '')}").replace("'", "")
+            line = f"{d} {t} ?? {raw.strip() or 'no position'}"
+        else:
+            line = f"{d} {t} {fmt_dm(r['latd'], True)} {fmt_dm(r['lond'], False)}"
         if args.pos and r.get("dist") is not None:
             line += f" {r['dist']:4.0f}nm/{r['brg']:03.0f}T"
         if not args.no_loc:
@@ -491,6 +502,11 @@ def main():
     if not incidents:
         print("ERROR: no incidents parsed - page layout may have changed", file=sys.stderr)
         return 3  # don't overwrite a good file with an empty one
+
+    for r in incidents:
+        if r["latd"] is None or r["lond"] is None:
+            print(f"WARNING: unparseable position {r['date']} {r['time']}: "
+                  f"{r['lat']!r} {r['lon']!r}", file=sys.stderr)
 
     rows = select_rows(incidents, args)
 
