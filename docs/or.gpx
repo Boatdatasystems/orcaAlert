@@ -2,8 +2,8 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-09-30</name>
-    <desc>5 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-09-30T12:09:54Z</time>
+    <desc>4 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-09-30T22:00:11Z</time>
   </metadata>
   <wpt lat="43.95907" lon="-7.44865">
     <time>2026-09-27T09:35:00Z</time>
@@ -30,13 +30,6 @@
     <time>2026-09-25T07:30:00Z</time>
     <name>ORCA A 25Sep 0830</name>
     <desc>Attack 25/09/2026 08:30 local (0730Z) - SW of Farol do Cabo Espichel (PT)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
-  </wpt>
-  <wpt lat="39.47942" lon="-9.63207">
-    <time>2026-09-23T15:45:00Z</time>
-    <name>ORCA A 23Sep 1645</name>
-    <desc>Attack 23/09/2026 16:45 local (1545Z) - NW of Farol das Berlengas (PT)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
   </wpt>
