@@ -1,10 +1,10 @@
 ORCAS.PT LAST INCIDENTS
-Gen 2026-10-02 1207Z  n=3/20
+Gen 2026-10-02 2158Z  n=3/20
 Filter last 7d
 A=Attack S=Sighting  time=local
 
+01Oct 1930 S 36 00.7N 005 29.4W SW of Faro de Punta Carnero (SP)
+01Oct 1045 S 35 59.3N 005 27.2W S of Faro de Punta Carnero (SP)
 27Sep 1135 S 43 57.5N 007 26.9W NE of Faro de Estaca de Bares (SP)
-25Sep 1415 S 38 21.0N 008 59.0W SE of Porto de Recreio de Se~ (PT)
-25Sep 1230 A 38 22.2N 009 06.4W S of Porto de Recreio de Ses~ (PT)
 
 src orcas.pt - verify, report yours
