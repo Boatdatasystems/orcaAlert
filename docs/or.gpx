@@ -2,23 +2,9 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-02</name>
-    <desc>6 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-02T04:46:44Z</time>
+    <desc>3 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-02T12:07:50Z</time>
   </metadata>
-  <wpt lat="36.01113" lon="-5.49070">
-    <time>2026-10-01T17:30:00Z</time>
-    <name>ORCA S 01Oct 1930</name>
-    <desc>Sighting 01/10/2026 19:30 local (1730Z) - SW of Faro de Punta Carnero (SP)</desc>
-    <sym>triangle</sym>
-    <type>Sighting</type>
-  </wpt>
-  <wpt lat="35.98893" lon="-5.45378">
-    <time>2026-10-01T08:45:00Z</time>
-    <name>ORCA S 01Oct 1045</name>
-    <desc>Sighting 01/10/2026 10:45 local (0845Z) - S of Faro de Punta Carnero (SP)</desc>
-    <sym>triangle</sym>
-    <type>Sighting</type>
-  </wpt>
   <wpt lat="43.95907" lon="-7.44865">
     <time>2026-09-27T09:35:00Z</time>
     <name>ORCA S 27Sep 1135</name>
@@ -37,13 +23,6 @@
     <time>2026-09-25T11:30:00Z</time>
     <name>ORCA A 25Sep 1230</name>
     <desc>Attack 25/09/2026 12:30 local (1130Z) - S of Porto de Recreio de Sesimbra (PT)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
-  </wpt>
-  <wpt lat="38.36333" lon="-9.27148">
-    <time>2026-09-25T07:30:00Z</time>
-    <name>ORCA A 25Sep 0830</name>
-    <desc>Attack 25/09/2026 08:30 local (0730Z) - SW of Farol do Cabo Espichel (PT)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
   </wpt>
