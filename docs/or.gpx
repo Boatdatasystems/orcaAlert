@@ -2,9 +2,16 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-04</name>
-    <desc>2 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-04T11:59:12Z</time>
+    <desc>3 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-04T16:38:54Z</time>
   </metadata>
+  <wpt lat="38.38678" lon="-9.10447">
+    <time>2026-10-04T11:00:00Z</time>
+    <name>ORCA S 04Oct 1200</name>
+    <desc>Sighting 04/10/2026 12:00 local (1100Z) - S of Porto de Recreio de Sesimbra (PT)</desc>
+    <sym>triangle</sym>
+    <type>Sighting</type>
+  </wpt>
   <wpt lat="36.01113" lon="-5.49070">
     <time>2026-10-01T17:30:00Z</time>
     <name>ORCA S 01Oct 1930</name>
