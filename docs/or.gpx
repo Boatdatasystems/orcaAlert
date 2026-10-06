@@ -2,9 +2,23 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-06</name>
-    <desc>5 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-06T05:33:42Z</time>
+    <desc>7 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-06T13:00:37Z</time>
   </metadata>
+  <wpt lat="43.35035" lon="-8.93350">
+    <time>2026-10-05T11:00:00Z</time>
+    <name>ORCA A 05Oct 1300</name>
+    <desc>Attack 05/10/2026 13:00 local (1100Z) - W of Faro de Sisargas (SP)</desc>
+    <sym>xmred</sym>
+    <type>Attack</type>
+  </wpt>
+  <wpt lat="38.70853" lon="-9.52105">
+    <time>2026-10-05T07:00:00Z</time>
+    <name>ORCA S 05Oct 0800</name>
+    <desc>Sighting 05/10/2026 08:00 local (0700Z) - W of Farol da Guia (PT)</desc>
+    <sym>triangle</sym>
+    <type>Sighting</type>
+  </wpt>
   <wpt lat="38.46782" lon="-9.27950">
     <time>2026-10-04T17:00:00Z</time>
     <name>ORCA A 04Oct 1800</name>
