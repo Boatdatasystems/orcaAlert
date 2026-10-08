@@ -1,8 +1,12 @@
 ORCAS.PT LAST INCIDENTS
-Gen 2026-10-07 2253Z  n=9/20
+Gen 2026-10-08 0514Z  n=13/20
 Filter last 7d
 A=Attack S=Sighting  time=local
 
+07Oct 1915 A 40 13.7N 009 32.8W W of Port of Figueira da Foz (PT)
+07Oct 0925 S 35 27.8N 006 04.3W W of Port of Asilah (MO)
+06Oct 2100 A 43 31.6N 008 50.3W N of Faro de Sisargas (SP)
+06Oct 1100 A 39 26.2N 009 30.1W N of Farol das Berlengas (PT)
 06Oct 0825 S 43 19.5N 008 53.1W SW of Faro de Sisargas (SP)
 06Oct 0800 S 39 21.1N 009 29.5W S of Farol das Berlengas (PT)
 05Oct 1300 A 43 21.0N 008 56.0W W of Faro de Sisargas (SP)
