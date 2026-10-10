@@ -2,9 +2,16 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-10</name>
-    <desc>14 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-10T12:08:05Z</time>
+    <desc>15 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-10T21:20:30Z</time>
   </metadata>
+  <wpt lat="37.76667" lon="-9.11667">
+    <time>2026-10-10T14:00:00Z</time>
+    <name>ORCA A 10Oct 1500</name>
+    <desc>Attack 10/10/2026 15:00 local (1400Z) - SW of Port of Sines (PT)</desc>
+    <sym>xmred</sym>
+    <type>Attack</type>
+  </wpt>
   <wpt lat="42.73437" lon="-9.06498">
     <time>2026-10-09T15:20:00Z</time>
     <name>ORCA A 09Oct 1720</name>
@@ -12,7 +19,7 @@
     <sym>xmred</sym>
     <type>Attack</type>
   </wpt>
-  <wpt lat="42.73883" lon="-9.07100">
+  <wpt lat="42.72217" lon="-9.07100">
     <time>2026-10-09T11:35:00Z</time>
     <name>ORCA A 09Oct 1335</name>
     <desc>Attack 09/10/2026 13:35 local (1135Z) - W of Porto do Son (SP)</desc>
