@@ -2,9 +2,16 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-11</name>
-    <desc>15 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-11T04:50:26Z</time>
+    <desc>14 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-11T12:21:57Z</time>
   </metadata>
+  <wpt lat="43.35600" lon="-9.10723">
+    <time>2026-10-10T19:37:00Z</time>
+    <name>ORCA A 10Oct 2137</name>
+    <desc>Attack 10/10/2026 21:37 local (1937Z) - NW of Laxe Harbour (SP)</desc>
+    <sym>xmred</sym>
+    <type>Attack</type>
+  </wpt>
   <wpt lat="37.76667" lon="-9.11667">
     <time>2026-10-10T14:00:00Z</time>
     <name>ORCA A 10Oct 1500</name>
@@ -95,19 +102,5 @@
     <desc>Attack 04/10/2026 18:00 local (1700Z) - NW of Farol do Cabo Espichel (PT)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
-  </wpt>
-  <wpt lat="42.91928" lon="-9.33513">
-    <time>2026-10-04T10:00:00Z</time>
-    <name>ORCA A 04Oct 1200</name>
-    <desc>Attack 04/10/2026 12:00 local (1000Z) - W of Port of Fisterra (SP)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
-  </wpt>
-  <wpt lat="38.38678" lon="-9.10447">
-    <time>2026-10-04T11:00:00Z</time>
-    <name>ORCA S 04Oct 1200</name>
-    <desc>Sighting 04/10/2026 12:00 local (1100Z) - S of Porto de Recreio de Sesimbra (PT)</desc>
-    <sym>triangle</sym>
-    <type>Sighting</type>
   </wpt>
 </gpx>
