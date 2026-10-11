@@ -2,16 +2,9 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-11</name>
-    <desc>14 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-11T12:21:57Z</time>
+    <desc>12 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-11T21:39:16Z</time>
   </metadata>
-  <wpt lat="43.35600" lon="-9.10723">
-    <time>2026-10-10T19:37:00Z</time>
-    <name>ORCA A 10Oct 2137</name>
-    <desc>Attack 10/10/2026 21:37 local (1937Z) - NW of Laxe Harbour (SP)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
-  </wpt>
   <wpt lat="37.76667" lon="-9.11667">
     <time>2026-10-10T14:00:00Z</time>
     <name>ORCA A 10Oct 1500</name>
@@ -95,12 +88,5 @@
     <desc>Sighting 05/10/2026 08:00 local (0700Z) - W of Farol da Guia (PT)</desc>
     <sym>triangle</sym>
     <type>Sighting</type>
-  </wpt>
-  <wpt lat="38.46782" lon="-9.27950">
-    <time>2026-10-04T17:00:00Z</time>
-    <name>ORCA A 04Oct 1800</name>
-    <desc>Attack 04/10/2026 18:00 local (1700Z) - NW of Farol do Cabo Espichel (PT)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
   </wpt>
 </gpx>
