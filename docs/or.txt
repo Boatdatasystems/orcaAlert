@@ -1,8 +1,9 @@
 ORCAS.PT LAST INCIDENTS
-Gen 2026-10-13 1349Z  n=8/20
+Gen 2026-10-13 2225Z  n=8/20
 Filter last 7d
 A=Attack S=Sighting  time=local
 
+13Oct 1830 A 41 22.6N 008 50.9W W of Marina da Povoa de Varz~ (PT)
 10Oct 2155 A 43 20.9N 009 06.8W NW of Laxe Harbour (SP)
 10Oct 1500 A 37 46.0N 009 07.0W SW of Port of Sines (PT)
 09Oct 1720 A 42 44.1N 009 03.9W W of Porto do Son (SP)
@@ -10,6 +11,5 @@ A=Attack S=Sighting  time=local
 09Oct 1148 S 38 22.4N 009 10.4W SE of Farol do Cabo Espichel (PT)
 07Oct 1930 A 40 14.3N 009 33.0W W of Port of Figueira da Foz (PT)
 07Oct 0925 S 35 27.8N 006 04.3W W of Port of Asilah (MO)
-06Oct 2100 A 43 31.6N 008 50.3W N of Faro de Sisargas (SP)
 
 src orcas.pt - verify, report yours
