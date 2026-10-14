@@ -3,8 +3,15 @@
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-14</name>
     <desc>7 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-14T04:08:19Z</time>
+    <time>2026-10-14T11:27:14Z</time>
   </metadata>
+  <wpt lat="41.37663" lon="-8.84900">
+    <time>2026-10-13T17:30:00Z</time>
+    <name>ORCA A 13Oct 1830</name>
+    <desc>Attack 13/10/2026 18:30 local (1730Z) - W of Marina da Povoa de Varzim (PT)</desc>
+    <sym>xmred</sym>
+    <type>Attack</type>
+  </wpt>
   <wpt lat="43.34900" lon="-9.11383">
     <time>2026-10-10T19:55:00Z</time>
     <name>ORCA A 10Oct 2155</name>
@@ -46,12 +53,5 @@
     <desc>Attack 07/10/2026 19:30 local (1830Z) - W of Port of Figueira da Foz (PT)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
-  </wpt>
-  <wpt lat="35.46370" lon="-6.07190">
-    <time>2026-10-07T09:25:00Z</time>
-    <name>ORCA S 07Oct 0925</name>
-    <desc>Sighting 07/10/2026 09:25 local (0925Z) - W of Port of Asilah (MO)</desc>
-    <sym>triangle</sym>
-    <type>Sighting</type>
   </wpt>
 </gpx>
