@@ -2,8 +2,8 @@
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Orca incidents (orcas.pt) 2026-10-22</name>
-    <desc>4 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-22T11:24:27Z</time>
+    <desc>3 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-22T16:51:49Z</time>
   </metadata>
   <wpt lat="42.36667" lon="-9.36667">
     <time>2026-10-20T13:30:00Z</time>
@@ -23,13 +23,6 @@
     <time>2026-10-16T12:39:00Z</time>
     <name>ORCA A 16Oct 1339</name>
     <desc>Attack 16/10/2026 13:39 local (1239Z) - W of Farol de Montedor (PT)</desc>
-    <sym>xmred</sym>
-    <type>Attack</type>
-  </wpt>
-  <wpt lat="43.40000" lon="-8.83333">
-    <time>2026-10-15T10:30:00Z</time>
-    <name>ORCA A 15Oct 1230</name>
-    <desc>Attack 15/10/2026 12:30 local (1030Z) - N of Faro de Sisargas (SP)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
   </wpt>
