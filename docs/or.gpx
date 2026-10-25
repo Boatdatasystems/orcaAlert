@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
-    <name>Orca incidents (orcas.pt) 2026-10-24</name>
-    <desc>1 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-24T20:27:18Z</time>
+    <name>Orca incidents (orcas.pt) 2026-10-25</name>
+    <desc>2 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-10-25T03:51:10Z</time>
   </metadata>
+  <wpt lat="41.42145" lon="-8.81417">
+    <time>2026-10-24T13:50:00Z</time>
+    <name>ORCA A 24Oct 1450</name>
+    <desc>Attack 24/10/2026 14:50 local (1350Z) - NW of Marina da Povoa de Varzim (PT)</desc>
+    <sym>xmred</sym>
+    <type>Attack</type>
+  </wpt>
   <wpt lat="42.36667" lon="-9.36667">
     <time>2026-10-20T13:30:00Z</time>
     <name>ORCA A 20Oct 1530</name>
