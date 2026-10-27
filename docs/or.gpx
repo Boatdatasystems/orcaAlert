@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
-    <name>Orca incidents (orcas.pt) 2026-10-26</name>
+    <name>Orca incidents (orcas.pt) 2026-10-27</name>
     <desc>2 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-10-26T22:26:09Z</time>
+    <time>2026-10-27T04:16:32Z</time>
   </metadata>
   <wpt lat="41.42145" lon="-8.81417">
     <time>2026-10-24T13:50:00Z</time>
