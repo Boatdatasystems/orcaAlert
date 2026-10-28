@@ -1,5 +1,5 @@
 ORCAS.PT LAST INCIDENTS
-Gen 2026-10-28 0446Z  n=1/20
+Gen 2026-10-28 1223Z  n=1/20
 Filter last 7d
 A=Attack S=Sighting  time=local
 
