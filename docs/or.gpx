@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="orcas_winlink.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
-    <name>Orca incidents (orcas.pt) 2026-11-08</name>
-    <desc>1 incidents, last 7 days. Source: orcas.pt</desc>
-    <time>2026-11-08T21:50:11Z</time>
+    <name>Orca incidents (orcas.pt) 2026-11-09</name>
+    <desc>2 incidents, last 7 days. Source: orcas.pt</desc>
+    <time>2026-11-09T05:23:18Z</time>
   </metadata>
   <wpt lat="40.59083" lon="-8.81805">
     <time>2026-11-03T15:30:00Z</time>
@@ -11,5 +11,12 @@
     <desc>Attack 03/11/2026 15:30 local (1530Z) - SW of Marina Clube da Gafanha (PT)</desc>
     <sym>xmred</sym>
     <type>Attack</type>
+  </wpt>
+  <wpt lat="32.90192" lon="-96.61143">
+    <time>2026-11-03T01:41:00Z</time>
+    <name>ORCA S 03Nov 0141</name>
+    <desc>Sighting 03/11/2026 01:41 local (0141Z) - W of Farol da Ponta do Albarnaz (PT)</desc>
+    <sym>triangle</sym>
+    <type>Sighting</type>
   </wpt>
 </gpx>
